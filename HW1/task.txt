@@ -1,0 +1,35 @@
+1. Ödev – Derin Öğrenme ile Saldırı Tespiti
+Bu ödevde, derin öğrenme tabanlı bir saldırı tespit sistemi (Intrusion Detection System – IDS) geliştirilecektir.
+
+İki farklı mimari karşılaştırılacaktır:
+
+CNN tabanlı sınıflandırma modeli
+
+Autoencoder–CNN (AE-CNN) birleşik mimarisi
+
+AE-CNN mimarisinde, Autoencoder modelinin encoder kısmı özellik çıkarımı amacıyla kullanılarak CNN tabanlı sınıflandırıcıdan önce yerleştirilecektir. Elde edilen sonuçlar CNN modeli ile karşılaştırılacaktır.
+
+Değerlendirme Metrikleri
+Modeller aşağıdaki performans metrikleri kullanılarak değerlendirilecektir:
+
+Accuracy
+
+Precision
+
+Recall
+
+F1-score
+
+Confusion Matrix
+
+Ayrıca eğitim süreci analiz edilerek aşağıdaki grafiklerin raporda gösterilmesi gerekmektedir:
+
+Training Loss grafiği
+
+Validation Loss grafiği
+
+Training Accuracy grafiği
+
+Validation Accuracy grafiği
+
+CNN ve AE-CNN modellerinin performansları karşılaştırılarak sonuçlar yorumlanmalıdır.
